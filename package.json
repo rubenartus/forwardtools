@@ -1,0 +1,22 @@
+{
+  "name": "forwardtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "build": "npx postcss src/css/styles.css -o assets/css/styles.css",
+    "watch": "npx postcss src/css/styles.css -o assets/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "Ruben Artus",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.2"
+  }
+}

@@ -21,6 +21,7 @@ Icon
 *.sublime-workspace
 /.vscode
 /.idea
+/node_modules
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
