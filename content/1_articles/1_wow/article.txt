@@ -1,0 +1,21 @@
+Title: Wow
+
+----
+
+Date: 2023-12-20
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"Okay"},"id":"4ecf937d-f569-45c0-aa37-d1d403c63fe8","isHidden":false,"type":"heading"},{"content":{"text":"<p>some text</p>"},"id":"54315302-4481-43ed-8285-2d570f6cc2a0","isHidden":false,"type":"text"},{"content":{"text":"and quote","citation":"me"},"id":"919a69c5-b509-4e18-91ae-24d16e7fb751","isHidden":false,"type":"quote"},{"content":{"text":"<ul><li>this</li><li>is</li><li>awesome</li></ul>"},"id":"47110425-3617-4e0c-a0af-4cdea8aef1fc","isHidden":false,"type":"list"},{"content":{"text":"<p>Right?</p>"},"id":"a5239c7b-e48f-4e83-8192-a909b72e4228","isHidden":false,"type":"text"}]
+
+----
+
+Relatedquestions: 
+
+----
+
+Tags: 
+
+----
+
+Uuid: 0GstcuiRtRdgdLU9

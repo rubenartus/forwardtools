@@ -1,0 +1,10 @@
+title: Projects
+
+sections:
+  projects:
+    label: Projects
+    type: pages
+    template: project
+    search: true
+    sortable: true
+    sortBy: date desc

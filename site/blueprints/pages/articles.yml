@@ -1,0 +1,10 @@
+title: Articles
+
+sections:
+  articles:
+    label: Articles
+    type: pages
+    template: article
+    search: true
+    sortable: true
+    sortBy: date desc

@@ -1,0 +1,20 @@
+title: Article
+
+fields:
+  title:
+    label: Title
+    type: text
+  date:
+    label: Date
+    type: date
+    default: today
+  blocks:
+    label: Content
+    type: blocks
+  relatedQuestions:
+    label: Related Research Questions
+    type: pages
+    query: site.find('research-questions').children
+  tags:
+    label: Tags
+    type: tags

@@ -1,0 +1,10 @@
+title: Research Questions
+
+sections:
+  questions:
+    label: Research Questions
+    type: pages
+    template: question
+    search: true
+    sortable: true
+    sortBy: date desc
