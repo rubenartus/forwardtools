@@ -1,0 +1,25 @@
+Title: ruben.design
+
+----
+
+Address: https://www.ruben.design
+
+----
+
+Note: My personal website.
+
+----
+
+Type: person
+
+----
+
+Date: 2023-10-01
+
+----
+
+Pinned: false
+
+----
+
+Uuid: fbGSXQW84sb3crvS

@@ -15,10 +15,3 @@ fields:
     label: Related Articles
     type: pages
     query: site.find('articles').children
-  status:
-    label: Status
-    type: select
-    options:
-      open: Open
-      in-progress: In-Progress
-      answered: Answered

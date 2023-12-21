@@ -2,7 +2,7 @@ Title: Do humans have a moat?
 
 ----
 
-Context: Well well...
+Context: Well well... the taste?
 
 ----
 
@@ -10,7 +10,7 @@ Relatedprojects:
 
 ----
 
-Relatedarticles: 
+Relatedarticles: - page://0GstcuiRtRdgdLU9
 
 ----
 

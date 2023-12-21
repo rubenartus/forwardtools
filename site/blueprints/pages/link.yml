@@ -1,0 +1,44 @@
+title: Link
+fields:
+  title:
+    label: Title
+    type: text
+    width: 1/2
+    help: The title or name of the external resource.
+
+  address:
+    label: URL
+    type: url
+    width: 1/2
+    help: The direct link to the external resource.
+
+  note:
+    label: Note
+    type: textarea
+    help: A short description or note about the resource.
+
+  type:
+    label: Type
+    type: select
+    options:
+      person: Person
+      article: Video
+      video: Video
+      paper: Paper
+      project: Project
+    width: 1/2
+    help: The type of external resource.
+
+  date:
+    label: Date
+    type: date
+    default: now
+    width: 1/2
+
+  pinned:
+    label: Pinned
+    type: toggle
+    text: 
+      - unpinned
+      - pinned
+    help: Toggle to pin this link as important on the list.

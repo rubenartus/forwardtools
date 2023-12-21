@@ -6,6 +6,9 @@
     <p class="md:w-1/2 mt-5">
       Any content not created by me is used under fair use for educational purposes and is clearly marked as such. If you are the copyright holder of any material found on this site and believe it has been used improperly, please contact me.
     </p>
+
+    <a href="<?= url('feed') ?>" class="mt-5 block">Subscribe to RSS Feed</a>
   </footer>
+
 </body>
 </html>

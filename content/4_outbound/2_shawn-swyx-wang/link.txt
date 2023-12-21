@@ -1,0 +1,29 @@
+Title: Shawn @swyx Wang
+
+----
+
+Address: https://www.swyx.io
+
+----
+
+Note: Great person
+
+----
+
+Type: person
+
+----
+
+Date: 2023-12-21
+
+----
+
+Pinned: true
+
+----
+
+Url: https://www.swyx.io
+
+----
+
+Uuid: ioUu5grNMTTKuuh5

@@ -1,0 +1,25 @@
+Title: Latent Space
+
+----
+
+Address: https://www.latent.space
+
+----
+
+Note: 
+
+----
+
+Type: project
+
+----
+
+Date: 2023-12-21
+
+----
+
+Pinned: true
+
+----
+
+Uuid: lOs4fRwcx5CK5Llc

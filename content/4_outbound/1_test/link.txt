@@ -1,0 +1,25 @@
+Title: test
+
+----
+
+Url: http://www.google.de
+
+----
+
+Note: Some notes
+
+----
+
+Type: paper
+
+----
+
+Date: 2023-12-21
+
+----
+
+Pinned: false
+
+----
+
+Uuid: QwZ8eTOddlzWT95G
