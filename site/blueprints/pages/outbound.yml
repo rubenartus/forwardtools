@@ -1,0 +1,10 @@
+title: Outbound
+
+sections:
+  outbound:
+    label: Outbound
+    type: pages
+    template: link
+    search: true
+    sortable: true
+    sortBy: date desc

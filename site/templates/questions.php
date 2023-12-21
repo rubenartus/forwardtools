@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="container mx-auto p-6">
+<main class="container mx-auto p-10">
   <h1 class="text-3xl font-bold mb-4">Research Questions</h1>
   <ul>
     <?php foreach (page('questions')->children()->listed() as $question): ?>

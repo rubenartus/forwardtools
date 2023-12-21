@@ -5,7 +5,11 @@ module.exports = {
     './site/snippets/**/*.php'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        worksans: ['WorkSans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

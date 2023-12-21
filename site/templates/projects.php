@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="container mx-auto p-6">
+<main class="container mx-auto p-10">
   <h1 class="text-3xl font-bold mb-4">Projects</h1>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <?php foreach (page('projects')->children()->listed() as $project): ?>
