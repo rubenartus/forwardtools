@@ -1,0 +1,29 @@
+Title: Quantum Dreams
+
+----
+
+Teaser: An invitation to explore the myriad paths of 'what could be,' while anchoring you in the appreciation of 'what is.' It's a journey through potential realities, offering insights into the choices that shape your life. Experience the power of perspective as you traverse the landscapes of possibility and reflection.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: thought-experiment
+
+----
+
+Icon: - file://WTigOZlaHxnGUB6G
+
+----
+
+Uuid: ZLXr0JELcaUYgmm7

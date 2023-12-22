@@ -1,0 +1,29 @@
+Title: echö
+
+----
+
+Teaser: Platform where individual ideas and perspectives are shared through AI intermediaries, fostering indirect yet meaningful interactions. This network encourages thoughtful discourse and diverse insights, expanding understanding beyond one's echo chamber through AI-enhanced communication.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://Hbsi5NS9Qg4mPVLN
+
+----
+
+Uuid: jcXozsGblVNlX9sn

@@ -1,0 +1,29 @@
+Title: Goldilocks
+
+----
+
+Teaser: This dynamic to-do list app adapts to your life's rhythm, offering intelligent task management based on your goals, feedback, and available time. It's designed to align with your natural work flow, ensuring you focus on what's essential without feeling overwhelmed.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://rHk0KYixtMbECfcM
+
+----
+
+Uuid: Pb24RR2jbNctdv10

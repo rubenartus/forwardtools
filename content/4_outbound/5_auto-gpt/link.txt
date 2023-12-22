@@ -1,0 +1,25 @@
+Title: Auto GPT
+
+----
+
+Address: https://github.com/Significant-Gravitas/AutoGPT
+
+----
+
+Note: AutoGPT is the vision of the power of AI accessible to everyone, to use and to build on.
+
+----
+
+Type: 
+
+----
+
+Date: 2023-10-18
+
+----
+
+Pinned: false
+
+----
+
+Uuid: XRY9S0RkWmvNWs8y

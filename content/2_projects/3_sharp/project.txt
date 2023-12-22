@@ -1,0 +1,29 @@
+Title: Sharp
+
+----
+
+Teaser: Navigate through the challenges of project development with a tool designed to break down barriers and simplify complexities. By offering clear guidance and a structured approach, it empowers you to overcome obstacles, prioritize effectively, and bring your ideas to fruition with confidence.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://tZUuuBFEtvvdzCPb
+
+----
+
+Uuid: gOjcgRzXTfenjszO

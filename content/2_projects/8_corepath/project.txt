@@ -1,0 +1,29 @@
+Title: Corepath
+
+----
+
+Teaser: A unique journey into empathetic communication, guiding users through the intricate labyrinth of human interaction. It equips individuals and groups with tools to understand and express themselves more profoundly, fostering genuine connections and clearer understanding in every conversation.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://NuELpaYeDHEAhM42
+
+----
+
+Uuid: xxL1QOc61XiP7DDp

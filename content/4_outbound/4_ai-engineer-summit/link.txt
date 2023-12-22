@@ -1,0 +1,25 @@
+Title: AI Engineer Summit
+
+----
+
+Address: https://www.ai.engineer/summit
+
+----
+
+Note: A new kind of software engineer is emerging and this was the conference to explore it.
+
+----
+
+Type: project
+
+----
+
+Date: 2023-10-08
+
+----
+
+Pinned: false
+
+----
+
+Uuid: 4uKRItOf4jRyakZX

@@ -1,0 +1,29 @@
+Title: Hack Against the Zombies
+
+----
+
+Teaser: You navigate a world where technology and survival intertwine against a backdrop of a zombie apocalypse. As Alex, a software engineer, you'll unravel puzzles, form crucial alliances, and make challenging decisions that shape your journey. This game merges strategic resource management with an emotionally charged narrative, offering an immersive experience of survival, ethics, and the power of human connections.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://9a9hjvaKwkJoc3Lq
+
+----
+
+Uuid: gc6Lt3H8m4wA8clk

@@ -1,0 +1,29 @@
+Title: resist'ance
+
+----
+
+Teaser: AI-driven companion designed to guide creatives through the ebbs and flows of their artistic process. By analyzing behavioral patterns and providing contextual advice, it helps users navigate and overcome creative blocks. This tool empowers individuals to harness their full creative potential, transforming resistance into a stepping stone for growth and innovation.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://XIiq7arcV55v2Mck
+
+----
+
+Uuid: 575Zww3JOwTWqLgs

@@ -10,7 +10,7 @@
             <div class="flex gap-5 flex-col">
                 <?php foreach (page('outbound')->children()->listed()->filterBy('pinned', '==', 'true')->sortBy('date', 'desc') as $link): ?>
                     <div>
-                        <h4 class="font-bold"><a target="_blank" href="<?= $link->address() ?>"><?= $link->title() ?></a> &rarr;</h4>
+                        <h4 class="text-xl font-bold"><a target="_blank" href="<?= $link->address() ?>"><?= $link->title() ?></a> &rarr;</h4>
                         <p class="text-sm"><?= $link->note() ?></p>
                     </div>
                 <?php endforeach; ?>
@@ -21,7 +21,6 @@
         <div class="w-full md:w-1/2 flex flex-col gap-20">
             <?php 
             $nonPinnedLinks = page('outbound')->children()->listed()->filterBy('pinned', '!=', 'true')->sortBy('date', 'desc');
-
             foreach ($nonPinnedLinks->groupBy(function ($p) { return $p->date()->toDate('F Y'); }) as $month => $links): ?>
                 <div class="flex">
                     <div class="w-40">
@@ -31,7 +30,7 @@
                     <div class="flex gap-5 flex-col">
                         <?php foreach ($links as $link): ?>
                             <div>
-                                <h4 class="font-bold"><a target="_blank" href="<?= $link->address() ?>"><?= $link->title() ?></a> &rarr;</h4>
+                                <h4 class="text-xl font-bold"><a target="_blank" href="<?= $link->address() ?>"><?= $link->title() ?></a> &rarr;</h4>
                                 <p class="text-sm"><?= $link->note() ?></p>
                             </div>
                         <?php endforeach; ?>

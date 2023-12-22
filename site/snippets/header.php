@@ -13,24 +13,31 @@
     <a
       href="<?= $site->url() ?>"
       class="
-        text-xl italic
+        text-xl font-medium
         <?php if ($page->isHomePage()): ?> text-indigo-500<?php endif; ?>
       "
     >
       <?= $site->title() ?>
     </a>
 
-
     <nav class="flex gap-8">
+      <a
+        href="<?= $site->url() ?>"
+        class="
+          <?php if ($page->isHomePage()): ?> text-indigo-500<?php endif; ?>
+        "
+      >
+        About
+      </a>
       <?php foreach ($site->children()->listed() as $item): ?>
         <a
           href="<?= $item->url() ?>"
           class="
-            <?php if ($item->isActive()): ?> text-indigo-500<?php endif; ?>
+            <?php if ($item->isActive() || $item->isOpen()): ?> text-indigo-500<?php endif; ?>
           "
         >
           <?= $item->title(); ?>
         </a>
-      <?php endforeach ?>
+      <?php endforeach ?>  
     </nav>
   </header>

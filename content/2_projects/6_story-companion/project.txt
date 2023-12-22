@@ -1,0 +1,29 @@
+Title: Story Companion
+
+----
+
+Teaser: Revolutionizes the way you write, integrating AI-driven character insights and narrative coherence into your creative process. It offers a dynamic, interactive environment where each character's voice is distinct and the story's flow is effortlessly maintained, enhancing your writing experience with depth and consistency.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://ngrGRnAonvBF5sGC
+
+----
+
+Uuid: Go0kUv0vWJANVdry

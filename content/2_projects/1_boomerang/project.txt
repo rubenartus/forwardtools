@@ -1,0 +1,29 @@
+Title: Boomerang
+
+----
+
+Teaser: An AI assistant that introduces a thoughtful pause in your decision-making journey, giving you time to reflect before making a final choice. It learns from your feedback, tailoring future advice to align with your preferences and goals. Minimize impulsive purchases, fostering more satisfying and well-considered decisions.
+
+----
+
+Date: 2023-12-22
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+Type: concept
+
+----
+
+Icon: - file://TKNzbto5BY9iB0qz
+
+----
+
+Uuid: HnrwNsLmsmrmuEbD

@@ -18,6 +18,13 @@
 
 @font-face {
   font-family: 'WorkSans';
+  src: url('/assets/fonts/WorkSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
   src: url('/assets/fonts/WorkSans-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;

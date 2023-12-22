@@ -10,4 +10,10 @@
   <p class="mt-5 text-lg">Keep an eye on my ongoing research questions as well. They're not just idle curiosities; they're the seeds of future projects, ideas ready to unfold. Each one is an invitation to explore, to challenge, and to join me in shaping the future of AI UX design. Let's journey through this exciting frontier together!</p>
 </div>
 
+<div class="container mx-auto p-10">
+  Not on Twitter or any other current socal media platform? You can send me an email at <a href="mailto:<EMAIL>"><EMAIL></a>.
+  i run workshops and do consulting for AI design and engineering – let me know if you're interested.
+  i also run a german AI podcast (dieKI.show) with my good firend Benny.
+</div>
+
 <?php snippet('footer') ?>

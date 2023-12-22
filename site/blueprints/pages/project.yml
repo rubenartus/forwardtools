@@ -4,6 +4,9 @@ fields:
   title:
     label: Title
     type: text
+  teaser:
+    label: Teaser
+    type: textarea
   date:
     label: Date
     type: date
@@ -18,7 +21,12 @@ fields:
     label: Type
     type: select
     options:
-      realistic: Realistic
-      crazy: Crazy
-      weird: Weird
-      futuristic: Futuristic
+      concept: Concept
+      prototype: Prototype
+      experiment: Experiment
+      thought-experiment: Thought Experiment
+  icon:
+    label: Icon
+    type: files
+    max: 1
+    layout: cards
