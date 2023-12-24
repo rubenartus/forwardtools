@@ -26,4 +26,8 @@ Icon: - file://ngrGRnAonvBF5sGC
 
 ----
 
+Rating: 5
+
+----
+
 Uuid: Go0kUv0vWJANVdry

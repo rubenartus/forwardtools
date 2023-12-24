@@ -1,0 +1,6 @@
+title: Project Diary
+pages:
+  diaryentry:
+    label: Diary Entries
+    template: article
+    sort: date desc

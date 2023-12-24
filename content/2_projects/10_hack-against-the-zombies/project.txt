@@ -18,11 +18,15 @@ Relatedquestions:
 
 ----
 
-Type: concept
+Type: game-concept
 
 ----
 
 Icon: - file://9a9hjvaKwkJoc3Lq
+
+----
+
+Rating: 5
 
 ----
 

@@ -1,32 +1,62 @@
 title: Project
 
-fields:
-  title:
-    label: Title
-    type: text
-  teaser:
-    label: Teaser
-    type: textarea
-  date:
-    label: Date
-    type: date
-  blocks:
-    label: Description
-    type: blocks
-  relatedQuestions:
-    label: Related Research Questions
+sections:
+  content:
+    type: fields
+    fields:
+      title:
+        label: Title
+        type: text
+      teaser:
+        label: Teaser  
+        type: textarea
+      date:
+        label: Date
+        type: date
+      blocks:
+        label: Description
+        type: blocks
+      relatedQuestions:
+        label: Related Research Questions
+        type: pages
+        query: site.find('questions').children
+      state:
+        label: State
+        type: select
+        options:
+          seed: Seedling
+          sprout: Sprout
+          blossoming: Blossoming
+          harvest: Harvest
+      type:
+        label: Type
+        type: select
+        options:
+          concept: Concept
+          game-concept: Game Concept  
+          prototype: Prototype
+          experiment: Experiment
+          thought-experiment: Thought Experiment
+      icon:
+        label: Icon
+        type: files
+        max: 1
+        layout: cards
+      rating:
+        label: Rating
+        type: number
+        min: 1
+        max: 5 
+        step: 1
+      version:
+        label: Version
+        type: text
+        help: Specify the current version of the project.
+      github:
+        label: Source on GitHub
+        type: url
+        help: Provide a link to the project's GitHub repository.
+  diary:
     type: pages
-    query: site.find('research-questions').children
-  type:
-    label: Type
-    type: select
-    options:
-      concept: Concept
-      prototype: Prototype
-      experiment: Experiment
-      thought-experiment: Thought Experiment
-  icon:
-    label: Icon
-    type: files
-    max: 1
-    layout: cards
+    label: Diary
+    template: article

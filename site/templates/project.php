@@ -8,6 +8,12 @@
     <?php endif; ?>
     <p class="text-gray-600"><?= $page->date()->toDate('d.m.Y') ?></p>
     <?= $page->blocks() ?>
+
+    <?php foreach ($page->children()->listed() as $article): ?>
+      <a href="<?= $article->url() ?>">
+      <?= $article->title() ?> <?= $article->date() ?>
+      </a>
+    <?php endforeach ?>
   </article>
 </div>
 

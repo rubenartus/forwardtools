@@ -1,0 +1,54 @@
+Title: Legendary Letter Mashup
+
+----
+
+Teaser: A journey from 8-bit realms to neon-lit realities where you, as the coach, craft powerful robots through the art of words. In this ever-evolving multiverse, pit your linguistic creations against other players' robots, mastering dimensions one battle at a time.
+
+----
+
+Date: 2023-12-23
+
+----
+
+Blocks: 
+
+----
+
+Relatedquestions: 
+
+----
+
+State: 
+
+----
+
+Type: game-concept
+
+----
+
+Icon: - file://66F6FaKll363oBGG
+
+----
+
+Rating: 5
+
+----
+
+Version: 1.0
+
+----
+
+Github: 
+
+----
+
+Priorart:
+
+- 
+  title: Some research paper
+  description: They did something here related.
+  url: http://www.google.de
+
+----
+
+Uuid: y08fED3CQgfSoSya

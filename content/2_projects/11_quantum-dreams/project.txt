@@ -26,4 +26,8 @@ Icon: - file://WTigOZlaHxnGUB6G
 
 ----
 
+Rating: 2
+
+----
+
 Uuid: ZLXr0JELcaUYgmm7
