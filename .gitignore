@@ -19,6 +19,7 @@ Icon
 # (sensitive workspace files)
 # ---------------------------
 *.sublime-workspace
+*.code-workspace
 /.vscode
 /.idea
 /node_modules
