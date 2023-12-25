@@ -24,10 +24,9 @@ sections:
         label: State
         type: select
         options:
-          seed: Seedling
-          sprout: Sprout
-          blossoming: Blossoming
-          harvest: Harvest
+          finished: Finished
+          progress: In Progress
+          backlog: Backlog
       type:
         label: Type
         type: select

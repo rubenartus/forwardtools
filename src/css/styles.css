@@ -33,3 +33,42 @@
 footer a {
   @apply underline
 }
+
+article a {
+  @apply underline
+}
+
+article a:hover {
+  @apply text-indigo-500
+}
+
+article h1 {
+  @apply text-3xl font-bold;
+}
+
+article h2 {
+  @apply text-2xl font-bold;
+}
+
+article h3 {
+  @apply text-xl font-bold;
+}
+
+article blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic;
+}
+
+article ul {
+  @apply list-disc list-inside;
+}
+
+article ol {
+  @apply list-decimal list-inside;
+}
+
+article p {
+}
+
+rticle img {
+  @apply max-w-full;
+}

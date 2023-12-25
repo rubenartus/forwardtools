@@ -1,19 +1,23 @@
 <?php snippet('header') ?>
 
-<div class="container mx-auto p-10">
+<article class="container mx-auto p-10">
   <h1 class="text-5xl mb-4 font-bold">Independent AI × UX research</h1>
   
-  <p class="md:w-2/3 text-2xl">Hey there, I'm Ruben, on a mission to advance the field of AI UX design, fully leveraging the dynamic medium of computers.</p>
+  <p class="md:w-2/3 text-2xl">Hey there, I'm <a href="http://ruben.design" target="_blank">Ruben</a>, on a mission to advance the field of AI UX design, fully leveraging the dynamic medium of computers.</p>
 
-  <p class="mt-5 text-lg">As an independent researcher, my path is all about posing big, sometimes quirky questions, and then diving headfirst into finding answers. The projects you'll see here represent my way of navigating these questions, turning "what ifs" into tangible "aha moments." They aim to inspire you about the possibilities with AI, combining serious design thinking with a healthy dose of playfulness.</p>
+  <div class="flex gap-10">
+    <div class="">
+      <p class="mt-5 text-lg">As an independent researcher, my path is all about posing big, sometimes quirky questions, and then diving headfirst into finding answers. The projects you'll see here represent my way of navigating these questions, turning "what ifs" into tangible "aha moments." They aim to inspire you about the possibilities with AI, combining serious design thinking with a healthy dose of playfulness.</p>
+      
+      <p class="mt-5 text-lg">Keep an eye on my open research questions as well. They're not just idle curiosities; they're the seeds of future projects, ideas ready to unfold. Each one is an invitation to explore, to challenge, and to join me in shaping the future of AI UX design.</p>
+      
+      <p class="mt-5 text-lg">You won't find me on social media, but I'd be delighted to <a href="mailot:ruben@forward.tools">get mail from you</a>. Alongside my research, I offer workshops and consulting in AI design and engineering. Additionally, I co-host a <a target="_blank" href="http://dieKI.show">German AI podcast</a> with my friend Benny.</p>
+    </div>
+    <div class="w-1/4 shrink-0">
+      <?php echo $page->image('home-illustration.jpg')->html() ?>
+    </div>
+  </div>
 
-  <p class="mt-5 text-lg">Keep an eye on my ongoing research questions as well. They're not just idle curiosities; they're the seeds of future projects, ideas ready to unfold. Each one is an invitation to explore, to challenge, and to join me in shaping the future of AI UX design. Let's journey through this exciting frontier together!</p>
-</div>
-
-<div class="container mx-auto p-10">
-  Not on Twitter or any other current socal media platform? You can send me an email at <a href="mailto:<EMAIL>"><EMAIL></a>.
-  i run workshops and do consulting for AI design and engineering – let me know if you're interested.
-  i also run a german AI podcast (dieKI.show) with my good firend Benny.
-</div>
+</article>
 
 <?php snippet('footer') ?>

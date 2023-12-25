@@ -18,6 +18,10 @@ Relatedquestions:
 
 ----
 
+State: backlog
+
+----
+
 Type: thought-experiment
 
 ----
@@ -27,6 +31,14 @@ Icon: - file://WTigOZlaHxnGUB6G
 ----
 
 Rating: 2
+
+----
+
+Version: 
+
+----
+
+Github: 
 
 ----
 

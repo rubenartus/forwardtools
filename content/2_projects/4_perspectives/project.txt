@@ -18,6 +18,10 @@ Relatedquestions:
 
 ----
 
+State: backlog
+
+----
+
 Type: concept
 
 ----
@@ -27,6 +31,14 @@ Icon: - file://ab1V99tZDXdtAbwi
 ----
 
 Rating: 5
+
+----
+
+Version: 
+
+----
+
+Github: 
 
 ----
 

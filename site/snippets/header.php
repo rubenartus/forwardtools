@@ -7,7 +7,9 @@
   <title><?= $page->title() ?> • <?= $site->title() ?></title>
 
   <link href="/assets/css/styles.css" rel="stylesheet">
+  <link rel="icon" href="/assets/images/favicon.svg">
 </head>
+
 <body class="font-worksans">
   <header class="container mx-auto p-10 pb-10 flex flex-col gap-3">
     <a

@@ -4,6 +4,9 @@ fields:
   title:
     label: Title
     type: text
+  teaser:
+    label: Teaser  
+    type: textarea
   date:
     label: Date
     type: date

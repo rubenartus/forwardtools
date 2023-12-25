@@ -18,6 +18,10 @@ Relatedquestions:
 
 ----
 
+State: backlog
+
+----
+
 Type: game-concept
 
 ----
@@ -27,6 +31,14 @@ Icon: - file://9a9hjvaKwkJoc3Lq
 ----
 
 Rating: 5
+
+----
+
+Version: 
+
+----
+
+Github: 
 
 ----
 
