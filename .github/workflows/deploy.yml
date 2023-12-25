@@ -17,3 +17,6 @@ jobs:
         port: 22
         uploads: |
           ./ => ./
+        ignore: |
+            *.git
+            */**/*git*
