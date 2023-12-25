@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="container mx-auto p-10">
+<main class="container mx-auto p-10 pt-0 md:pt-10">
   <div class="flex mb-20 gap-5 flex-col md:flex-row">
     <p class="md:w-1/2 text-2xl">This is a collection of my ongoing thoughts, daily learnings, and small experiments.</p>
 

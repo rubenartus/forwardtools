@@ -9,19 +9,19 @@
 ?>
 <?php snippet('header') ?>
 
-<div class="container mx-auto p-10">
+<div class="container mx-auto p-10 pt-0">
   <article class="prose">
     <?php if($icon = $page->icon()->toFile()): ?>
-      <img src="<?= $icon->url() ?>" class="w-1/3 mx-auto mb-5">
+      <img src="<?= $icon->url() ?>" class="md:w-1/3 mx-auto mb-5">
     <?php endif; ?>
-    <h1 class="text-5xl font-bold text-center"><?= $page->title() ?></h1>
+    <h1 class="text-4xl md:text-5xl font-bold text-center"><?= $page->title() ?></h1>
     <p class="text-gray-600 text-center mt-3"><?= $page->date()->toDate('M Y') ?> &bull; <?= $type ?></p>
 
-    <div class="flex mt-10 gap-10">
-      <div class="w-2/3 text-2xl">
+    <div class="flex mt-10 gap-10 flex-col md:flex-row">
+      <div class="md:w-2/3 text-xl md:text-2xl">
         <?= $page->teaser() ?>
       </div>
-      <div class="w-1/3">
+      <div class="md:w-1/3">
         <div class="mb-5">
           <?php
             switch($page->state()->value()) {
