@@ -20,7 +20,12 @@ RewriteEngine on
 # In some environments it's necessary to
 # set the RewriteBase to:
 #
-# RewriteBase /
+RewriteBase /
+
+# https redirect
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # block files and folders beginning with a dot, such as .git
 # except for the .well-known folder, which is used for Let's Encrypt and security.txt
