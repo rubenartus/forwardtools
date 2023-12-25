@@ -2,12 +2,23 @@ name: Deploy to FTP Server
 on: [push]
 jobs:
   ftp-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+    - name: FTP Uploader
+    # You may pin to the exact commit or the version.
+    # uses: zinh/ftp-uploader-action@10d256274547c8b84848edf454bfeb0b8a451c41
+    uses: zinh/ftp-uploader-action@v0.4
+    with:
+      # Hostname of ftp server, eg: ftpHostname: ftp.test
+      ftpHostname: ${{ secrets.FTP_SERVER }}
+      # User of ftp account
+      ftpUsername: ${{ secrets.FTP_USERNAME }}
+      # Password of ftp account
+      ftpPassword: ${{ secrets.FTP_PASSWORD }}
+      # List files to upload to ftp server
+      files: 
+      # Source folder
+      src: # optional, default is 
+      # Destination folder
+      dest: # optional, default is /
+      # For debug
+      dryRun: # optional
+            
