@@ -6,6 +6,8 @@
     <p class="md:w-1/2 mt-5">
       Any content not created by me is used under fair use for educational purposes and is clearly marked as such. If you are the copyright holder of any material found on this site and believe it has been used improperly, please contact me.
     </p>
+
+    <a href="https://github.com/rubenartus/forwardtools" target="_blank" class="block mt-5">Source Code</a>
   </footer>
 
 </body>
