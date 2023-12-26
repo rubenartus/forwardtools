@@ -1,11 +1,7 @@
 <?php
-// Set the content type to XML
-header('Content-type: application/rss+xml');
-
-// Fetch the articles or content to include in the feed
 $items = page('articles')->children()->listed()->flip();
 
-// RSS feed structure
+header('Content-type: application/rss+xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="utf-8"?>';
 ?>
 <rss version="2.0">
