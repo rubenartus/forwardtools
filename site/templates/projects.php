@@ -4,7 +4,7 @@
   <div class="flex mb-20 gap-5 flex-col md:flex-row">
     <p class="md:w-1/2 text-2xl">I'm dedicated to exploring and understanding the vast capabilities of AI. My goal is to propel the AI UX space forward by exploring new, innovative interfaces and interactions.</p>
 
-    <p class="md:w-1/2 text-lg">As you discover these projects, if you find yourself intrigued or inspired, I'd love to <a href="mailto:ruben@forward.tools">hear from you</a>. Your ideas, feedback, or questions could be the next inspiring spark.</p>
+    <p class="md:w-1/2 text-lg">As you discover these projects, if you find yourself intrigued or inspired, I'd love to <a href="mailto:hello@ruben.design">hear from you</a>. Your ideas, feedback, or questions could be the next inspiring spark.</p>
   </div>  
 
   <div>

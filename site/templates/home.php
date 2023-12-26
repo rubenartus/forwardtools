@@ -11,7 +11,7 @@
       
       <p class="mt-5 text-lg">Keep an eye on my open research questions as well. They're not just idle curiosities; they're the seeds of future projects, ideas ready to unfold. Each one is an invitation to explore, to challenge, and to join me in shaping the future of AI UX design.</p>
       
-      <p class="mt-5 text-lg">You won't find me on social media, but I'd be delighted to <a href="mailot:ruben@forward.tools">get mail from you</a>. Alongside my research, I offer workshops and consulting in AI design and engineering. Additionally, I co-host a <a target="_blank" href="http://dieKI.show">German AI podcast</a> with my friend Benny.</p>
+      <p class="mt-5 text-lg">You won't find me on social media, but I'd be delighted to <a href="mailot:hello@ruben.design">get mail from you</a>. Alongside my research, I offer workshops and consulting in AI design and engineering. Additionally, I co-host a <a target="_blank" href="http://dieKI.show">German AI podcast</a> with my friend Benny.</p>
     </div>
     <div class="md:w-1/4 shrink-0">
       <?php echo $page->image('home-illustration.jpg')->html() ?>
