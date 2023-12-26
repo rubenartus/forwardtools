@@ -8,7 +8,7 @@ return [
       'method' => 'GET',
       'action'  => function () {
           $options = [
-              'title'       => 'Articles on forward.tools',
+              'title'       => 'forward.tools',
               'description' => 'This is a collection of my ongoing thoughts, daily learnings, and small experiments.',
               'link'        => 'articles',
               'textfield'   => 'teaser'

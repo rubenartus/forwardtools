@@ -48,6 +48,10 @@
     </div>
 
     <?= $page->blocks() ?>
+
+    <div class="md:w-1/2 mt-10 border-t pt-5">
+      If you find yourself intrigued or inspired by this project, I'd love to <a href="mailto:hello@ruben.design">hear from you</a>. Your ideas, feedback, or questions could be the next inspiring spark.
+    </div>
   </article>
 </div>
 

@@ -8,7 +8,7 @@
 
   <link href="/assets/css/styles.css" rel="stylesheet">
   <link rel="icon" href="/assets/images/favicon.svg">
-  <link rel="alternate" type="application/rss+xml" title="Articles on forward.tools" href="<?= site()->url() ?>/feed"/>
+  <link rel="alternate" type="application/rss+xml" title="forward.tools" href="<?= site()->url() ?>/feed"/>
 </head>
 
 <body class="font-worksans">
