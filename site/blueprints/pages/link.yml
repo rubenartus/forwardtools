@@ -12,7 +12,7 @@ fields:
     width: 1/2
     help: The direct link to the external resource.
 
-  note:
+  teaser:
     label: Note
     type: textarea
     help: A short description or note about the resource.

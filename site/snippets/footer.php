@@ -7,7 +7,9 @@
       Any content not created by me is used under fair use for educational purposes and is clearly marked as such. If you are the copyright holder of any material found on this site and believe it has been used improperly, please contact me.
     </p>
 
-    <a href="https://github.com/rubenartus/forwardtools" target="_blank" class="block mt-5">Source Code</a>
+    <p class="mt-5">
+      <a href="/feed" target="_blank">RSS Feed</a> &bull; <a href="https://github.com/rubenartus/forwardtools" target="_blank">Source Code</a>
+    </p>
   </footer>
 
 </body>

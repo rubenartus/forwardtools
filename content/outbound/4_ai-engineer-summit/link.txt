@@ -6,7 +6,7 @@ Address: https://www.ai.engineer/summit
 
 ----
 
-Note: A new kind of software engineer is emerging and this was the conference to explore it.
+Teaser: A new kind of software engineer is emerging and this was the conference to explore it.
 
 ----
 
@@ -19,6 +19,10 @@ Date: 2023-10-08
 ----
 
 Pinned: false
+
+----
+
+Note: 
 
 ----
 

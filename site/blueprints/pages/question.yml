@@ -4,7 +4,10 @@ fields:
   title:
     label: Question Title
     type: text
-  context:
+  date:
+    label: Date
+    type: date
+  teaser:
     label: Context
     type: textarea
   relatedProjects:

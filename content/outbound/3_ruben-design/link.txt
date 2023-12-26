@@ -6,7 +6,7 @@ Address: https://www.ruben.design
 
 ----
 
-Note: My personal website.
+Teaser: My personal website.
 
 ----
 
@@ -19,6 +19,10 @@ Date: 2023-10-01
 ----
 
 Pinned: true
+
+----
+
+Note: 
 
 ----
 

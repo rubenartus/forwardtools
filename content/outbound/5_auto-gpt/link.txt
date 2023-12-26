@@ -6,7 +6,7 @@ Address: https://github.com/Significant-Gravitas/AutoGPT
 
 ----
 
-Note: AutoGPT is the vision of the power of AI accessible to everyone, to use and to build on.
+Teaser: AutoGPT is the vision of the power of AI accessible to everyone, to use and to build on.
 
 ----
 
@@ -19,6 +19,10 @@ Date: 2023-10-18
 ----
 
 Pinned: false
+
+----
+
+Note: 
 
 ----
 

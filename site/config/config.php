@@ -1,14 +1,35 @@
 <?php
 
 return [
-  'debug'  => false,
+  'debug'  => true,
   'routes' => [
     [
       'pattern' => 'feed',
+      'method' => 'GET',
       'action'  => function () {
-        return page('feed');
+          $options = [
+              'title'       => 'Articles on forward.tools',
+              'description' => 'This is a collection of my ongoing thoughts, daily learnings, and small experiments.',
+              'link'        => 'articles',
+              'textfield'   => 'teaser'
+          ];
+          $feed = site()->index()->listed()->filter(fn ($child) => $child->teaser()->exists())->sortBy('date', 'desc')->limit(250)->feed($options);
+
+          return $feed;
       }
-    ]
+    ],
+    [
+      'pattern' => 'sitemap.xml',
+      'method' => 'GET',
+      'action'  => function () {
+          $options = [
+              'images'       => false,
+              'videos'       => false,
+          ];
+          $feed = site()->index()->listed()->limit(50000)->sitemap($options);
+          return $feed;
+      }
+    ],
   ],
   'panel' => [
     'menu' => [

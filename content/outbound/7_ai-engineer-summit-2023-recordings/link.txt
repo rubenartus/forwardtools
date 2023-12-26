@@ -6,7 +6,7 @@ Address: https://www.youtube.com/@aiDotEngineer/videos
 
 ----
 
-Note: So much insight!
+Teaser: So much insight!
 
 ----
 
@@ -19,6 +19,10 @@ Date: 2023-12-01
 ----
 
 Pinned: false
+
+----
+
+Note: 
 
 ----
 

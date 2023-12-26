@@ -2,7 +2,11 @@ Title: How can AI-driven autocomplete tools in digital sketching effectively pro
 
 ----
 
-Context:
+Date: 
+
+----
+
+Teaser:
 
 - We have autocomplete in code IDEs
 - Now we have hyper charged autocomplete with LLMs, intelligent, context aware automcomplete
@@ -18,6 +22,17 @@ Relatedprojects:
 ----
 
 Relatedarticles: 
+
+----
+
+Context:
+
+- We have autocomplete in code IDEs
+- Now we have hyper charged autocomplete with LLMs, intelligent, context aware automcomplete
+- Imagine you scribble something, a concept for an app or some idea, you want to wrap your head around a problem
+- You scribble on the (digital) paper and an LLM is autocompleting, making suggestions on the next step, or things you missed, pointing them out, making space
+- The more context the LLM get's the better the suggestions, like the goal, previous work, documents for this project, notes, overall goals and goals for the session, previous sessions, voice within the session (pointing to a space and saying "make some space here", "I want to explore this further", "make 10 variants for this while I scribble here a bit", "I like this", "show me all the things I liked this far")
+- And the ai can help with repetitive tasks like drawing multiple boxes, or drawing variants of something or making a new document of a mashup of a couple of picks from the current board or helping find an idea ("where was this sketch I made a few minutes ago with the small person?)
 
 ----
 
