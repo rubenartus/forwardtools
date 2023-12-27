@@ -11,7 +11,8 @@ return [
               'title'       => 'forward.tools',
               'description' => 'This is a collection of my ongoing thoughts, daily learnings, and small experiments.',
               'link'        => 'articles',
-              'textfield'   => 'teaser'
+              'textfield'   => 'teaser',
+              'datefield'   => 'date'
           ];
           $feed = site()->index()->listed()->filter(fn ($child) => $child->teaser()->exists())->sortBy('date', 'desc')->limit(250)->feed($options);
 

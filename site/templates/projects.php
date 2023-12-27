@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<article class="container mx-auto p-10 pt-0 md:pt-10">
+<article class="container mx-auto p-5 md:p-10 pt-0 md:pt-10">
   <div class="flex mb-20 gap-5 flex-col md:flex-row">
     <p class="md:w-1/2 text-2xl">I'm dedicated to exploring and understanding the vast capabilities of AI. My goal is to propel the AI UX space forward by exploring new, innovative interfaces and interactions.</p>
 

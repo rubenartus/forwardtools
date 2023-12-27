@@ -9,7 +9,7 @@
 ?>
 <?php snippet('header') ?>
 
-<div class="container mx-auto p-10 pt-0">
+<div class="container mx-auto p-5 md:p-10 pt-0">
   <article class="prose">
     <?php if($icon = $page->icon()->toFile()): ?>
       <img src="<?= $icon->url() ?>" class="md:w-1/3 mx-auto mb-5">

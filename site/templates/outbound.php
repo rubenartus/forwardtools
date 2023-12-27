@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="container mx-auto p-10">
+<div class="container mx-auto p-5 md:p-10">
     <div class="flex flex-wrap gap-20 md:gap-0">
         <div class="w-fill md:w-1/2 flex">
             <div class="w-40">

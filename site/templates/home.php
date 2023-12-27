@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<article class="container mx-auto p-10 pt-0 md:pt-10">
+<article class="container mx-auto p-5 md:p-10 pt-0 md:pt-10">
   <h1 class="text-3xl md:text-5xl mb-4 font-bold">Independent AI × UX research</h1>
   
   <p class="md:w-2/3 text-2xl">Hey there, I'm <a href="http://ruben.design" target="_blank">Ruben</a>, on a mission to advance the field of AI UX design, fully leveraging the dynamic medium of computers.</p>

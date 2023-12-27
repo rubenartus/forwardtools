@@ -12,7 +12,7 @@
 </head>
 
 <body class="font-worksans">
-  <header class="container mx-auto p-10 pb-10 flex flex-col gap-3">
+  <header class="container mx-auto p-5 md:p-10 pb-10 flex flex-col gap-3">
     <a
       href="<?= $site->url() ?>"
       class="

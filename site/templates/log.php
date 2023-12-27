@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="container mx-auto p-10">
+<div class="container mx-auto p-5 md:p-10">
     <h1 class="text-5xl mb-4 font-bold">Log</h1>
     <ul>
         <?php 
