@@ -3,7 +3,7 @@
 <div class="container mx-auto p-5 md:p-10">
   <article class="prose">
     <h1 class="text-5xl mb-4 font-bold"><?= $page->title() ?></h1>
-    <p class="md:w-2/3 text-2xl"><?= $page->context()->kirbytext() ?></p>
+    <p class="md:w-2/3 text-2xl"><?= $page->teaser()->kirbytext() ?></p>
 
     <section>
       <h2>Related Projects</h2>

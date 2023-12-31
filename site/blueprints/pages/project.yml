@@ -47,14 +47,21 @@ sections:
         min: 1
         max: 5 
         step: 1
-      version:
-        label: Version
-        type: text
-        help: Specify the current version of the project.
-      github:
-        label: Source on GitHub
-        type: url
-        help: Provide a link to the project's GitHub repository.
+      references:
+        label: References
+        type: structure
+        fields:
+          title:
+            label: Title
+            type: text
+          description:
+            label: Description
+            type: textarea
+          url:
+            label: URL
+            type: url
+
+         
   diary:
     type: pages
     label: Diary

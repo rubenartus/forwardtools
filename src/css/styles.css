@@ -38,37 +38,47 @@ article a {
   @apply underline
 }
 
+article h1 a, article h2 a, article h3 a {
+  @apply no-underline
+}
+
 article a:hover {
   @apply text-indigo-500
 }
 
-article h1 {
-  @apply text-3xl font-bold;
+article .blocks h1 {
+  @apply text-4xl font-bold mt-20;
 }
 
-article h2 {
+article .blocks h2 {
+  @apply text-3xl font-medium mt-10;
+}
+
+article .blocks h1+h2 {
+  @apply mt-0;
+}
+
+article .blocks h3 {
   @apply text-2xl font-bold;
 }
 
-article h3 {
-  @apply text-xl font-bold;
-}
 
-article blockquote {
+article .blocks blockquote {
   @apply border-l-4 border-gray-300 pl-4 italic;
 }
 
-article ul {
-  @apply list-disc list-inside;
+article .blocks ul {
+  @apply list-disc text-xl md:w-2/3;
 }
 
-article ol {
-  @apply list-decimal list-inside;
+article .blocks ul li { 
+  @apply pb-3;
 }
 
-article p {
+article .blocks p {
+  @apply text-xl md:w-2/3;
 }
 
-rticle img {
+article .blocks img {
   @apply max-w-full;
 }
