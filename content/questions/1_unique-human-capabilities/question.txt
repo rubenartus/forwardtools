@@ -2,7 +2,11 @@ Title: What unique human capabilities will remain challenging for AI to replicat
 
 ----
 
-Teaser: Well well... the taste?
+Date: 
+
+----
+
+Teaser: 
 
 ----
 
@@ -10,7 +14,7 @@ Relatedprojects:
 
 ----
 
-Relatedarticles: - page://0GstcuiRtRdgdLU9
+Relatedarticles: 
 
 ----
 

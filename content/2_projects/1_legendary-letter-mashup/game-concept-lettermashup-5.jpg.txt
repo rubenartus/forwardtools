@@ -1,0 +1,5 @@
+Uuid: danpddwCjDpCyzme
+
+----
+
+Template: blocks/image

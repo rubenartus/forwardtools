@@ -63,15 +63,15 @@
       <?= $page->blocks()->toBlocks() ?>
     </div>
 
-    <?php if($page->references()->isNotEmpty()): ?>
+    <?php if($page->ressources()->isNotEmpty()): ?>
       <div class="my-20">
-        <h2 class="text-4xl font-bold border-b mb-5">References</h2>
+        <h2 class="text-4xl font-bold border-b mb-5">Ressources</h2>
 
         <div class="grid md:grid-cols-4 gap-5 text-sm">
-        <?php foreach($page->references()->toStructure() as $reference): ?>
+        <?php foreach($page->ressources()->toStructure() as $ressource): ?>
           <div>
-            <a href="<?= $reference->url() ?>" class="font-bold mb-2 block no-underline" target="_blank"><?= $reference->title() ?></a>
-            <p><?= $reference->description() ?></p>
+            <a href="<?= $ressource->url() ?>" class="font-bold mb-2 block no-underline" target="_blank"><?= $ressource->title() ?></a>
+            <p><?= $ressource->description() ?></p>
           </div>
         <?php endforeach ?>
         </div>

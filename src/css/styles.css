@@ -62,13 +62,12 @@ article .blocks h3 {
   @apply text-2xl font-bold;
 }
 
-
 article .blocks blockquote {
   @apply border-l-4 border-gray-300 pl-4 italic;
 }
 
 article .blocks ul {
-  @apply list-disc text-xl md:w-2/3;
+  @apply list-disc text-xl md:w-2/3 list-inside md:list-outside;
 }
 
 article .blocks ul li { 

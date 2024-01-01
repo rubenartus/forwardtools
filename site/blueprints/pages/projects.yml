@@ -7,4 +7,3 @@ sections:
     template: project
     search: true
     sortable: true
-    sortBy: date desc

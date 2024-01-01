@@ -9,7 +9,7 @@
 
   <div>
     <?php
-    $projectsGrouped = page('projects')->children()->listed()->sortBy('state', 'desc');
+    $projectsGrouped = page('projects')->children()->listed();
     foreach ($projectsGrouped->groupBy(function ($p) { return $p->state(); }) as $state => $projects):
       $state = match ($state) {
         'backlog' => 'Backlog',
