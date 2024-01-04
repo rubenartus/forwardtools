@@ -17,9 +17,9 @@ if ($block->location() == 'web') {
 
 ?>
 <?php if ($src): ?>
-<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="bg-slate-100 p-5 rounded-md">
+<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="bg-slate-100 p-2 md:p-5 rounded-md">
   <a href="<?= $link->isNotEmpty() ? Str::esc($link->toUrl()) : $src ?>" target="_blank">
-    <img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
+    <img class="w-full" src="<?= $src ?>" alt="<?= $alt->esc() ?>">
   </a>
 
   <?php if ($caption->isNotEmpty()): ?>

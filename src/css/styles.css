@@ -63,7 +63,11 @@ article .blocks h3 {
 }
 
 article .blocks blockquote {
-  @apply border-l-4 border-gray-300 pl-4 italic;
+  @apply border-l-4 border-gray-300 pl-4 italic md:w-2/3;
+}
+
+article .blocks blockquote footer {
+  @apply mt-5 text-xs;
 }
 
 article .blocks ul {

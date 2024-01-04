@@ -14,7 +14,7 @@
     return $p->date()->toDate('F Y');
   }) as $month => $articles): ?>
     <div class="flex">
-      <div class="w-40">
+      <div class="w-40 shrink-0">
         <h2><?= ucfirst($month) ?></h2>
       </div>
 
@@ -26,8 +26,8 @@
             </h2>
             
             <?php if($article->teaser()): ?>
-              <div class="text-lg">
-                <?= $article->teaser() ?>  
+              <div class="md:w-1/2">
+                <?= $article->teaser() ?> <a href="<?= $article->url() ?>">...read more</a>
               </div>
             <?php endif; ?>
           </article>

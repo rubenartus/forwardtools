@@ -4,8 +4,8 @@ $caption = $block->caption();
 $crop    = $block->crop()->isTrue();
 $ratio   = $block->ratio()->or('auto');
 ?>
-<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="bg-slate-100 p-5 rounded-md">
-  <div class="grid md:grid-cols-2 gap-4">
+<figure<?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?> class="bg-slate-100 p-2 md:p-5 rounded-md">
+  <div class="grid md:grid-cols-2 gap-2 md:gap-5">
   <?php 
   $images = $block->images()->toFiles();
   $numImages = count($images);

@@ -4,13 +4,14 @@
   <article class="prose">
     <div><?= $page->date()->toDate('j. M Y') ?></div>
     <h1 class="text-5xl font-bold"><?= $page->title() ?></h1>
+    
     <?php if($page->teaser()): ?>
-      <div class="text-2xl mt-3">
+      <div class="text-2xl mt-3 md:w-2/3">
         <?= $page->teaser() ?>  
       </div>
     <?php endif; ?>
 
-    <div class="flex mt-10 gap-5 flex-col">
+    <div class="flex mt-10 gap-5 flex-col blocks">
       <?= $page->blocks()->toBlocks() ?>
     </div>
   </article>
