@@ -65,12 +65,12 @@
 
     <?php if($page->ressources()->isNotEmpty()): ?>
       <div class="my-20">
-        <h2 class="text-4xl font-bold border-b mb-5">Ressources</h2>
+        <h2 class="text-4xl font-bold border-b mb-5">Resources</h2>
 
-        <div class="grid md:grid-cols-4 gap-5 text-sm">
+        <div class="grid md:grid-cols-3 gap-5 md:gap-10 text-sm">
         <?php foreach($page->ressources()->toStructure() as $ressource): ?>
           <div>
-            <a href="<?= $ressource->url() ?>" class="font-bold mb-2 block no-underline" target="_blank"><?= $ressource->title() ?></a>
+            <a href="<?= $ressource->url() ?>" class="text-lg font-medium mb-1 block no-underline" target="_blank"><?= $ressource->title() ?></a>
             <p><?= $ressource->description() ?></p>
           </div>
         <?php endforeach ?>
@@ -82,10 +82,10 @@
       <div class="my-20">
         <h2 class="text-4xl font-bold border-b mb-5">Related Research Questions</h2>
         
-        <div class="grid md:grid-cols-2 gap-5 text-sm">
+        <div class="grid md:grid-cols-2 gap-5 md:gap-10 text-sm">
           <?php foreach($page->relatedQuestions()->toPages() as $question): ?>
             <div>
-              <a href="<?= $question->url() ?>" class="font-bold mb-2 block no-underline"><?= $question->title() ?></a>
+              <a href="<?= $question->url() ?>" class="text-lg font-medium mb-1 block no-underline"><?= $question->title() ?></a>
               <p class="text-sm"><?= $question->teaser() ?></p>
             </div>
           <?php endforeach; ?>

@@ -14,10 +14,16 @@ fields:
   blocks:
     label: Content
     type: blocks
-  relatedQuestions:
-    label: Related Research Questions
-    type: pages
-    query: site.find('research-questions').children
-  tags:
-    label: Tags
-    type: tags
+  ressources:
+    label: Ressources
+    type: structure
+    fields:
+      title:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea
+      url:
+        label: URL
+        type: url

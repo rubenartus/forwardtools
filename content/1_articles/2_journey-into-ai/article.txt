@@ -1,0 +1,114 @@
+Title: My Journey into AI: From Skepticism to Excitement
+
+----
+
+Teaser: Reflecting on what flipped the switch for me and what fueled my enthusiasm for this AI movement, I hope to share some of my excitement with you.
+
+----
+
+Date: 2024-01-04
+
+----
+
+Blocks: [{"content":{"text":"<p>My background is mainly in design and coding for web and apps. I have been doing this – in addition to working as an artist and tutor in the 3D space – as a freelancer since 2006. In the past years this left me somewhat exhausted and bored with typical websites and apps, pushing me towards a new challenge.</p>"},"id":"5bcc95cd-c839-4adb-9512-1d8db670b4a4","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"AI tops Spacial Computing tops VR"},"id":"eb8db16f-7230-4a9a-9f5d-408ecbc6343e","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://cJv8OaqUmaNn5rRh"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a1d8afed-8f1d-4cb3-8cb3-a58d8cc31673","isHidden":false,"type":"image"},{"content":{"text":"<p>The latest wave of VR devices in 2014 – starting with Oculus and Vive – gave me a strong pull into the virtual and augmented reality space. So much so that I even wrote a book and started consulting in this area. I lost most of my interest until Apple's recent announcement of the Vision Pro. This fueled my excitement once again, since it seems to solve many issues that led me to drop the technology back in 2016.</p><p>ChatGPT emerged much earlier than the announcement of Vision Pro, but that wave didn't quite catch me. In the summer of 2023, I was using ChatGPT at work, and slowly saw the practical and varied usages of generative AI in everyday life. My friend <a href=\"https://www.aiservice.gmbh\">Benny</a> was a very early adopter of AI – while anyone starting now is still one, I guess – and he often talked excitedly about the technology. One big AHA moment was when my good friend Joni showed me the voice chat feature of ChatGPT.</p>"},"id":"9a32b83f-94d0-430e-b8ba-4bb8292278f5","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Hello, AI"},"id":"24ad4fbf-4468-492c-84d0-76b8e3249891","isHidden":false,"type":"heading"},{"content":{"text":"<p>It was casually on a drive to the cinema when he fired up the app and started a voice chat with GPT-4. This was an epiphany for me – it somehow flipped a switch. From then on, I was regularly doing research on LLMs, testing ChatGPT in much more situations, and experimented with other models as well. I was falling into the rabbit hole, and it was fantastic!</p><p>I integrated <a href=\"https://github.com/features/copilot\">GitHub Copilot</a>, and later <a href=\"https://sourcegraph.com/cody\">Cody</a>, more into my everyday coding workflow. I was experimenting with coding in programming languages that were totally foreign to me. I did small experiments with rapidly coding some small tool or game assisted by AI, throwing problems at the LLMs, and seeing how they’d handle them. Trying to architect a new project? Discuss it with AI. Stopped by a strange bug from JavaScript? Involve AI. Needing to learn a new software? Ask AI for an overview and then go deeper into topics I’m interested in.</p><p>While also brainstorming ideas and thoughts – in voice and text – with the AI as an inspiring muse, challenging critique, or research assistant — see my <a href=\"/@/page/uTo7iyXLocp2hfej\">other post</a> here on how I integrate AI into the start of my creative process. All of this allowed me to see the value and capabilities of modern AI, including its limitations. And with a better understanding of its potential, my excitement grew more.</p>"},"id":"650b90b4-a52f-4369-99aa-b0d4aee4b202","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"From consumer to creator"},"id":"b01fb550-5f7a-4e41-8588-a50ffd89d468","isHidden":false,"type":"heading"},{"content":{"text":"<p>Then I discovered fantastic resources like <a href=\"https://www.latent.space/\">Latent Space</a> from <a href=\"https://www.swyx.io\">Swyx</a> and <a href=\"https://www.alessiofanelli.com\">Alessio</a>. Also, some people I knew and followed their work from the Tools For Thought space, started talking about AI – like <a href=\"https://thesephist.com\">Linus</a>, <a href=\"https://maggieappleton.com\">Maggie</a>, and <a href=\"https://andymatuschak.org\">Andy</a>.</p><p>Especially about the UX and UI side of this field and how unexplored it still is. Since I was using more and more available LLM interfaces myself, I was seeing the potential of improving them and inventing new ones. This feels a bit like the punch card era of the evolution of computers – so much to explore!</p><p>This deep dive into the code and design perspective on AI, a shift from consumer to creator of AI projects, widened the space of possibilities in my imagination vastly. I started to understand the underlying technologies, in which direction the field is going, and what experiments and possibilities are being tried.</p><p>That this is not merely a nice new technology that generates text and images; it's a way to train models that can achieve an incredible understanding (and reasoning capabilities) of the material fed to them.</p><p>So many tasks that were difficult in the past are made so much easier by AI and previously impossible things are now actually achievable. And I saw how this technology would turn so many areas of our life on its head, not just (but also in a big way) education and health. On one side, it's disrupting them in a chaotic and possibly negative way, but it's also lowering access barriers, making the playing field more even.</p>"},"id":"58d14bb2-760e-468e-a385-586374d0aa58","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Within our lifetimes"},"id":"5632f2e5-78d1-4de5-ad2a-e9220e621bd3","isHidden":false,"type":"heading"},{"content":{"text":"<p>Finally, observing the fast-paced evolution of the AI space, it became clear to me, that this isn’t something for sci-fi movies and novels anymore, this is happening right now and will explode in our face. But in a good way!</p><p>Because another factor that fueled my excitement (there is so much of it!) was observing the thriving open-source AI movement. I saw that this technology was not only something that would enable big companies to grow even more and increase their revenue and data hoarding, privacy intruding work. Nope, AI was being democratized and open source was catching up quickly and innovating on its own.</p>"},"id":"ca704f35-f8a0-42de-a7d3-d9bfcec58314","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Doom &amp; Gloom"},"id":"ad906bfc-9838-4ea4-85a1-f0c6eba68146","isHidden":false,"type":"heading"},{"content":{"text":"<p>In the past years, I did not take cries of the danger of AI really seriously. It seemed overhyped, too much doom and gloom for me to take it seriously. Now that I started to understand the technology and see its potential positive impact on the world, I could also see how companies and groups could use this technology in a harmful way. Far away from any hype, in a practical sense in everyday life.</p><p>And seeing this, urged me to understand this technology even more and to play a (small) part in shaping the evolution of it. AI will not just be relevant in my life, but it will play a huge part in my children’s lives! I want them to be able to keep up with the new demands of an AI-infused society, and them being able to shield off its dangers.</p><p>This involves their education, social media, and other influences, surveillance, politics, and so many more areas of their life. And maybe I can even help other parents navigate these social changes and their effects.</p>"},"id":"d47c05fe-7605-424a-8c27-b1c597074f2c","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Excited?"},"id":"27a6b2e8-e55b-4e20-8320-b587f9c4f01b","isHidden":false,"type":"heading"},{"content":{"text":"<p>This article was inspired by my brother <a href=\"https://aaron-fischer.net/\">Aaron</a>, who mentioned that to him the AI movement still feels more hype than something substantial. He reminded me of my own journey from skepticism to starting this project, forward.tools, standing knee-deep in excitement and enthusiasm – so I can relate very much to his point of view.</p><p>I would <a href=\"mailto:hello@ruben.design\">love to hear</a> how you, the reader, got into this space and where you stand on the skepticism vs. excitement scale!</p><p>By the way, I made the switch to working full-time with an <a href=\"https://www.ehrenkind.de/\">amazing team on a wonderful mission</a> last year. After working as a freelancer for such a long time, I'm very grateful for being able to work alongside wonderful people every day – and my enthusiasm for web development has been rekindled!</p><p>I’ll leave you with some links to resources from the AI field that inspired me and examples of others using the technology.</p>"},"id":"b194f9e1-41d5-4da1-a9e6-8bfc1a1a25e7","isHidden":false,"type":"text"}]
+
+----
+
+Ressources:
+
+- 
+  title: The Rise of the AI Engineer
+  description: >
+    A great introduction for developers
+    wanting to join the AI movement.
+  url: https://www.latent.space/p/ai-engineer
+- 
+  title: You Are Not Too Old (To Pivot Into AI)
+  description: "Reasons why you should still get into AI, even if you're not 20 anymore."
+  url: https://www.latent.space/p/not-old
+- 
+  title: 'Squish Meets Structure: Designing with Language Models'
+  description: >
+    Great talk by Maggie Appleton on the
+    challenges of designing with LLMs.
+  url: >
+    https://maggieappleton.com/squish-structure
+- 
+  title: Metaphor
+  description: >
+    A new – and maybe better – way to
+    search the web.
+  url: https://search.metaphor.systems
+- 
+  title: Perplexity
+  description: >
+    Replaced traditional search engines for
+    me.
+  url: https://www.perplexity.ai/
+- 
+  title: Latent Space
+  description: >
+    Great podcast and articles centered
+    around the AI engineer.
+  url: https://www.latent.space
+- 
+  title: Descript
+  description: 'Amazing use of AI in a product: you edit audio and video by changing text.'
+  url: https://www.descript.com
+- 
+  title: LangChain
+  description: >
+    Library for chaining LLM calls with
+    regular code/database actions, to create
+    sophisticated tools.
+  url: https://www.langchain.com
+- 
+  title: Eleven Labs
+  description: "You'll be amazed by how far text-to-speech has come – even cloning your own voice is now possible."
+  url: https://elevenlabs.io/
+- 
+  title: Cursor
+  description: >
+    A Visual Studio Code fork, fully
+    integrated with AI.
+  url: https://cursor.sh/
+- 
+  title: >
+    How an AI Researcher Uses ChatGPT and
+    Notion AI
+  description: >
+    Podcast on how people are using ChatGPT
+    – in this episode, Linus Lee shares
+    his perspective.
+  url: >
+    https://app.podcastguru.io/podcast/how-do-you-use-chatgpt-1719789201/episode/how-an-ai-researcher-uses-chatgpt-and-notion-ai-ep-3-with-linus-lee-70e7de0e786816183f0e11046eb034ba
+- 
+  title: Hugging Face
+  description: >
+    Currently the central place for the open
+    source movement in AI.
+  url: https://huggingface.co
+- 
+  title: ChatGPT Voicechat Demo
+  description: "If you're unable to test it yourself, check it out here."
+  url: >
+    https://www.youtube.com/watch?v=Cp8KKUxTFaE
+- 
+  title: Addressing any remaining LLM skepticism
+  description: >
+    A well-written article on the same
+    topic, by Max Olson.
+  url: >
+    https://futureblind.com/p/addressing-any-remaining-llm-skepticism
+
+----
+
+Relatedquestions: 
+
+----
+
+Tags: 
+
+----
+
+Uuid: orOU1h3MJ99LA0pN

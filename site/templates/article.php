@@ -14,6 +14,21 @@
     <div class="flex mt-10 gap-5 flex-col blocks">
       <?= $page->blocks()->toBlocks() ?>
     </div>
+    
+    <?php if($page->ressources()->isNotEmpty()): ?>
+      <div class="my-20">
+        <h2 class="text-4xl font-bold border-b mb-5">Resources</h2>
+
+        <div class="grid md:grid-cols-3 gap-5 md:gap-10 text-sm">
+        <?php foreach($page->ressources()->toStructure() as $ressource): ?>
+          <div>
+            <a href="<?= $ressource->url() ?>" class="text-lg font-medium mb-1 block no-underline" target="_blank"><?= $ressource->title() ?></a>
+            <p><?= $ressource->description() ?></p>
+          </div>
+        <?php endforeach ?>
+        </div>
+      </div>
+    <?php endif ?>
   </article>
 </div>
 
