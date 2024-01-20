@@ -14,7 +14,9 @@ return [
               'textfield'   => 'teaser',
               'datefield'   => 'date'
           ];
-          $feed = site()->index()->listed()->filter(fn ($child) => $child->teaser()->exists())->sortBy('date', 'desc')->limit(250)->feed($options);
+          $feed = site()->index()->listed()->filter(
+            fn ($child) => $child->teaser()->exists() && $child->template() == 'article'
+          )->sortBy('date', 'desc')->limit(250)->feed($options);
 
           return $feed;
       }
