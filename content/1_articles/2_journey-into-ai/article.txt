@@ -14,7 +14,7 @@ Blocks: [{"content":{"text":"<p>My background is mainly in design and coding for
 
 ----
 
-Ressources:
+Resources:
 
 - 
   title: The Rise of the AI Engineer

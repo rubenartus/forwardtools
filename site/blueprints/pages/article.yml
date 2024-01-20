@@ -14,8 +14,8 @@ fields:
   blocks:
     label: Content
     type: blocks
-  ressources:
-    label: Ressources
+  resources:
+    label: Resources
     type: structure
     fields:
       title:

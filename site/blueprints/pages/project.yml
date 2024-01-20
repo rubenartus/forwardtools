@@ -47,8 +47,8 @@ sections:
         min: 1
         max: 5 
         step: 1
-      ressources:
-        label: Ressources
+      resources:
+        label: Resources
         type: structure
         fields:
           title:

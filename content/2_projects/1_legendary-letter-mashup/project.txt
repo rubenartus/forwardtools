@@ -37,7 +37,7 @@ Rating: 5
 
 ----
 
-Ressources:
+Resources:
 
 - 
   title: Midjourney
