@@ -1,0 +1,21 @@
+Title: Working on a "Designing for AI" Guide
+
+----
+
+Teaser: I'm trying to get a sense of AI as a design material – to fine-tune my intuition for working with AI.
+
+----
+
+Date: 2024-01-22
+
+----
+
+Blocks: [{"content":{"text":"<p>I am convinced that as a designer, you need a very good understanding and feeling for the technology you work with to craft truly useful tools and interfaces.</p><p>Artificial intelligence, especially the latest form of generative AI with large language models (LLMs), is very powerful, while also having problems that are not obvious on the surface level.</p><p>In the past months, I was able to get a better intuition of the capabilities and limitations of AI, from a designer's perspective — by creating my own design and coding experiments, finding other designers playing with AI, and also going deep into the technical side with podcasts and articles/papers.</p><p>So much that I’m at a point where I may be helpful in creating a small guide on designing for (not with) AI. In the past 3 weeks, I’ve been collecting notes and references for this new section on this website.</p><p>On that journey, I found some inspiring designers who have been much longer than me in this space. And they already contributed many insights for designers trying to design AI assisted products.</p><p>Like <a href=\"https://www.youtube.com/watch?v=76w2I2ucMkQ\">Jared Ficklin</a> from argodesign, <a href=\"https://uxofai.com\">Lennart Ziburski</a>, and <a href=\"https://www.youtube.com/watch?v=Hu5Jc1yIfas&amp;t=292s\">Josh Clark</a>. I will incorporate and reference their work into this guide, hoping to build a long-lasting resource for designers trying to get into this space.</p>"},"id":"d51778e2-b3e1-41c1-b447-07f619fa6c95","isHidden":false,"type":"text"}]
+
+----
+
+Resources: 
+
+----
+
+Uuid: I61iBhn0OjskmkBC
