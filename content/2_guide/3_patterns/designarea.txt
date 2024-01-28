@@ -1,0 +1,9 @@
+Title: Patterns
+
+----
+
+Teaser: While there aren't many established design solutions for AI, we'll start with the most promising ones.
+
+----
+
+Uuid: cNTHUM3HHZK4wGFV

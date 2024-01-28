@@ -1,0 +1,8 @@
+title: Design for AI
+
+sections:
+  areas:
+    label: Areas
+    type: pages
+    template: designarea
+    sortable: true

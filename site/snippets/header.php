@@ -12,35 +12,31 @@
 </head>
 
 <body class="font-worksans">
-  <header class="container mx-auto p-5 md:p-10 pb-10 flex flex-col gap-3">
-    <a
-      href="<?= $site->url() ?>"
-      class="
-        text-xl font-medium
-        <?php if ($page->isHomePage()): ?> text-indigo-500<?php endif; ?>
-      "
-    >
-      <?= $site->title() ?>
-    </a>
-
-    <nav class="flex gap-8">
-      <a
-        href="<?= $site->url() ?>"
-        class="
-          <?php if ($page->isHomePage()): ?> text-indigo-500<?php endif; ?>
-        "
-      >
-        About
-      </a>
-      <?php foreach ($site->children()->listed() as $item): ?>
+  <header class="bg-black text-white py-5">
+    <div class="container mx-auto px-5 md:px-10 flex flex-col gap-0">
+      <nav class="flex gap-8 items-center">
         <a
-          href="<?= $item->url() ?>"
-          class="
-            <?php if ($item->isActive() || $item->isOpen()): ?> text-indigo-500<?php endif; ?>
-          "
+          href="<?= $site->url() ?>"
+          class="text-xl font-medium text-white"
         >
-          <?= $item->title(); ?>
+          <?= $site->title() ?>
         </a>
-      <?php endforeach ?>  
-    </nav>
+
+        <?php foreach ($site->children()->listed() as $item): ?>
+          <a
+            href="<?= $item->url() ?>"
+            class="<?php if ($item->isActive() || $item->isOpen()): ?> text-white<?php else: ?>text-gray-400<?php endif; ?> hover:text-white"
+          >
+            <?= $item->title(); ?>
+          </a>
+        <?php endforeach ?>
+
+        <a
+          href="<?= $site->url() ?>"
+          class="<?php if ($page->isHomePage()): ?>text-white<?php else: ?>text-gray-400<?php endif; ?> hover:text-white"
+        >
+          About
+        </a>
+      </nav>
+    </div>
   </header>

@@ -1,0 +1,13 @@
+Title: Capabilities
+
+----
+
+Teaser: AI technologies are advancing quickly and understanding what they can do is essential for your design process.
+
+----
+
+Intro: Just a heads up, this collection is tailored for designers rather than the technical or research side of things. The way it's written aims to help you understand what AI technologies can offer and spark some creative inspiration for your design projects.
+
+----
+
+Uuid: JBiT5sw5q8RdQDnS

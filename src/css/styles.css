@@ -43,7 +43,7 @@ article h1 a, article h2 a, article h3 a {
 }
 
 article a:hover {
-  @apply text-indigo-500
+  @apply text-indigo-600
 }
 
 article .blocks h1 {

@@ -32,15 +32,25 @@
         ?>
           <div class="flex gap-2 md:gap-4 flex-col md:flex-row">
             <?php if($icon = $project->icon()->toFile()): ?>
-              <a href="<?= $project->url() ?>" class="h-32 w-32 shrink-0 mx-auto"><img src="<?= $icon->url() ?>"></a>
+              <?php if($project->state() == 'finished'): ?>
+                <a href="<?= $project->url() ?>" class="h-32 w-32 shrink-0 mx-auto">
+                  <img src="<?= $icon->url() ?>">
+                </a>
+              <?php else: ?>
+                <img src="<?= $icon->url() ?>" class="h-32 w-32 shrink-0 mx-auto">
+              <?php endif; ?>
             <?php endif; ?>
 
             <div>
               <p class="text-xs text-gray-500 text-center md:text-left"><?= strtoupper($type) ?></p>
 
-              <a href="<?= $project->url() ?>" class="hover:text-indigo-500 no-underline text-center md:text-left">
+              <?php if($project->state() == 'finished'): ?>
+              <a href="<?= $project->url() ?>" class="hover:text-indigo-600 no-underline text-center md:text-left">
                 <h2 class="text-2xl font-bold text-center md:text-left"><?= $project->title() ?></h2>
               </a>
+              <?php else: ?>
+                <h2 class="text-2xl font-bold text-center md:text-left"><?= $project->title() ?></h2>
+              <?php endif; ?>
 
               <div class="flex gap-1 mt-1 md:mt-3 justify-center md:justify-start">
                 <?php
@@ -58,11 +68,13 @@
 
               <p class="text-sm mt-3"><?= $project->teaser() ?></p>
 
+              <?php if($project->state() == 'finished'): ?>
               <p class="text-sm mt-3">
-                <a href="<?= $project->url() ?>" class="hover:text-indigo-500">
+                <a href="<?= $project->url() ?>" class="hover:text-indigo-600">
                   Discover this <?= strtolower($type) ?>
                 </a>
               </p>
+              <?php endif; ?>
             </div>
           </div>
         <?php endforeach; ?>

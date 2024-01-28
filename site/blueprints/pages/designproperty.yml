@@ -1,0 +1,23 @@
+title: Design Property
+
+fields:
+  type:
+    label: Type
+    type: select
+    options:
+      capability: Capability
+      limitation: Limitation
+      pattern: Pattern
+    width: 1/2
+
+  description:
+    label: Short Description  
+    type: text
+  
+  group:
+    label: Group
+    type: text
+  
+  title:
+    label: Title
+    type: text

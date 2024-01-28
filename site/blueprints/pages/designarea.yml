@@ -1,0 +1,17 @@
+title: Designarea
+
+sections:
+  content:
+    type: fields
+    fields:
+      teaser:
+        label: Teaser
+        type: text
+      intro:
+        label: Intro 
+        type: textarea
+  groups:
+    label: Groups
+    type: pages
+    template: designgroup  
+    sortable: true

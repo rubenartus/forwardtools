@@ -1,0 +1,12 @@
+title: Designgroup
+
+sections:
+  properties:
+    label: Properties
+    type: pages
+    template: designproperty
+    layout: table
+    columns:
+      description: true
+      group: true    
+    sortable: true
