@@ -50,7 +50,7 @@
     <div class="">
         <h1 class="text-5xl font-medium"><?= $page->title() ?></h1>
 
-        <p class="text-2xl font-medium mt-5">People value the power, mobility, and flexibility of iPad as they enjoy media, play games, perform detailed productivity tasks, and bring their creations to life.</p>
+        <p class="text-2xl font-medium mt-5">...</p>
 
         <div class="flex mt-5 gap-5 flex-col blocks">
           <?= $page->blocks()->toBlocks() ?>
