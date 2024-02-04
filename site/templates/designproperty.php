@@ -12,8 +12,8 @@
 </div>
 
 <main class="container mx-auto p-5 md:p-10 pt-0 md:pt-10">
-  <div class="flex gap-10">
-    <div class="w-1/5 shrink-0 flex flex-col gap-3">
+  <div class="flex gap-10 items-start">
+    <div class="w-1/4 shrink-0 flex flex-col gap-3 sticky top-5">
       <?php foreach ($page->parent()->parent()->children()->listed() as $group): ?>
         <div>
           <a
@@ -33,7 +33,7 @@
           </a>
 
           <?php if ($group == $page->parent()): ?>
-            <div class="ml-7 mt-1">
+            <div class="ml-7 mt-1 text-sm">
               <?php foreach ($group->children() as $child): ?>
                 <div class="<?php if($child == $page): ?>font-medium<?php else: ?>text-gray-500 hover:text-indigo-600<?php endif; ?>">
                   <a href="<?= $child->url() ?>">
@@ -50,11 +50,60 @@
     <div class="">
         <h1 class="text-5xl font-medium"><?= $page->title() ?></h1>
 
-        <p class="text-2xl font-medium mt-5">...</p>
+        <p class="text-2xl mt-5"><?= $page->intro() ?></p>
 
-        <div class="flex mt-5 gap-5 flex-col blocks">
-          <?= $page->blocks()->toBlocks() ?>
+        <div class="mt-10 kirbytext">
+          <?= $page->description()->kt() ?>
         </div>
+
+        <?php if($page->usage()->isNotEmpty()): ?>
+          <div class="mt-16">
+            <div class="text-3xl font-medium">Imagine</div>
+
+            <div class="grid grid-cols-1 gap-5 mt-3">
+              <?php foreach($page->usage()->toStructure() as $u): ?>
+                <div class="flex gap-5 items-center">
+                  <div class="aspect-video bg-gray-100 rounded-xl w-1/4 shrink-0"></div>
+                  <div class=""><?= $u->description() ?></div>
+                </div>
+              <?php endforeach ?>
+              </div>
+          </div>
+        <?php endif ?>
+
+        <?php if($page->examples()->isNotEmpty()): ?>
+          <div class="mt-16">
+            <div class="text-3xl font-medium">Out There</div>
+
+            <div class="grid grid-cols-2 gap-10 mt-3">
+              <?php foreach($page->examples()->toStructure() as $e): ?>
+                <div class="">
+                  <div class="aspect-video bg-gray-100 rounded-xl"></div>
+                  <a href="<?= $e->url() ?>" class="font-medium text-lg mt-3 block hover:text-indigo-600"><?= $e->title() ?></a>
+                  <p class="mt-1"><?= $e->description() ?></p>
+                </div>
+              <?php endforeach ?>
+            </div>
+          </div>
+        <?php endif ?>
+
+        <?php if($page->application()->isNotEmpty()): ?>
+          <div class="mt-16">
+            <div class="text-3xl font-medium">Your Turn</div>
+
+            <div class="grid grid-cols-2 gap-10 mt-5">
+              <?php foreach($page->application()->toStructure() as $a): ?>
+                <div class="">
+                  <div class="aspect-video bg-gray-100 rounded-xl"></div>
+                  <h3 class="font-medium text-lg mt-3 block"><?= $a->title() ?></h3>
+                  <div class="mt-1 kirbytext">
+                    <?= $a->description()->kt() ?>
+                  </div>
+                </div>
+              <?php endforeach ?>
+            </div>
+          </div>
+        <?php endif ?>
     </div>
   </div>
 </main>

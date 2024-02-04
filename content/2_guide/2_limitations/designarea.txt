@@ -10,4 +10,8 @@ Intro:
 
 ----
 
+Ready: false
+
+----
+
 Uuid: 1slgbCvthK3zptLR

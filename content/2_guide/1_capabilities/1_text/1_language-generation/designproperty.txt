@@ -2,4 +2,92 @@ Title: Language Generation
 
 ----
 
+Intro: Transforming thoughts into written or spoken words, making communication and content creation simpler and more efficient.
+
+----
+
+Description:
+
+Imagine having the power to instantly convert ideas into well-structured, articulate text. That's what this capability offers. It's like having a tireless writer at your fingertips, one that understands context, tone, and even humor. It can generate everything from product descriptions to full-length articles, adapting to various writing styles and needs. This isn't just about churning out words; it's about creating meaningful, relevant content.
+
+However, it's not perfect. It relies on the data it's trained on and sometimes may not fully grasp complex or nuanced topics. But when it comes to scaling content creation or breaking through writer's block, this capability is a game-changer.
+
+It can spark creativity, offer new perspectives, and help refine ideas into compelling narratives.
+
+----
+
+Usage:
+
+- 
+  preview: [ ]
+  description: >
+    ...a personal diary that suggests
+    reflective prompts tailored to your past
+    entries.
+  title: Diary App
+  details: >
+    A personal diary app that not only
+    records your daily entries but also
+    suggests reflective prompts tailored to
+    your writings and highlights your
+    unfinished thoughts, making journaling a
+    more engaging and insightful experience.
+- 
+  preview: [ ]
+  description: >
+    ...an app for scriptwriters that adapts
+    the script’s tone and style to match
+    specific genres or directors.
+
+----
+
+Examples:
+
+- 
+  preview: [ ]
+  title: Latent.space
+  url: https://www.latent.space
+  description: >
+    Some online news platforms use language
+    generation to create news articles from
+    data inputs like sports scores or
+    financial reports, delivering fast,
+    accurate, and unbiased content.
+- 
+  preview: [ ]
+  title: Test
+  url: ""
+  description: Test
+
+----
+
+Application:
+
+- 
+  preview: [ ]
+  title: Write a Blog
+  description: 'Use a language (link: page://1slgbCvthK3zptLR text: generation tool) to create a blog post on a topic of your choice. Experiment with different tones and styles to see how the tool adapts.'
+  url: ""
+- 
+  preview: [ ]
+  title: Dialogue Challenge
+  description: >
+    Design a mock-up of a chatbot using this
+    capability. Create a scenario, like a
+    customer service inquiry, and see how
+    well the tool can handle a conversation.
+  url: ""
+- 
+  preview: [ ]
+  title: Story Remix
+  description: >
+    Take a classic short story and use the
+    tool to rewrite it in a completely
+    different genre or style. Observe how
+    the tool maintains the storyline while
+    altering the narrative’s flavor.
+  url: ""
+
+----
+
 Uuid: a3l5qangE1NmdWCr

@@ -12,8 +12,8 @@
 </div>
 
 <main class="container mx-auto p-5 md:p-10 pt-0 md:pt-10">
-  <div class="flex gap-10">
-    <div class="w-1/5 shrink-0 flex flex-col gap-3">
+  <div class="flex gap-10 items-start">
+    <div class="w-1/4 shrink-0 flex flex-col gap-3 sticky top-5">
       <?php foreach ($page->parent()->children()->listed() as $group): ?>
         <div>
           <a
@@ -33,7 +33,7 @@
           </a>
 
           <?php if ($group == $page && $group->children()->count()): ?>
-            <div class="ml-7 mt-1">
+            <div class="ml-7 mt-1 text-sm">
               <?php foreach ($group->children() as $child): ?>
                 <div class="<?php if($child == $page): ?>font-medium<?php else: ?>text-gray-500 hover:text-indigo-600<?php endif; ?>">
                   <a href="<?= $child->url() ?>">

@@ -1,23 +1,54 @@
 title: Design Property
 
 fields:
-  type:
-    label: Type
-    type: select
-    options:
-      capability: Capability
-      limitation: Limitation
-      pattern: Pattern
-    width: 1/2
-
+  intro:
+    label: Intro
+    type: text
   description:
-    label: Short Description  
-    type: text
-  
-  group:
-    label: Group
-    type: text
-  
-  title:
-    label: Title
-    type: text
+    label: Description
+    type: textarea
+  usage:
+    label: Imagine...
+    type: structure
+    fields:
+      preview:
+        label: Preview
+        type: files
+        max: 1
+        layout: cards
+      description:
+        label: Description
+        type: textarea
+  examples:
+    label: Out There
+    type: structure
+    fields:
+      preview:
+        label: Preview
+        type: files
+        max: 1
+        layout: cards
+      title:
+        label: Title
+        type: text
+      url:
+        label: URL
+        type: url
+      description:
+        label: Description
+        type: textarea
+  application:
+    label: Your Turn
+    type: structure
+    fields:
+      preview:
+        label: Preview
+        type: files
+        max: 1
+        layout: cards
+      title:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea

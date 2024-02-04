@@ -11,15 +11,20 @@
 </main>
 
 <div class="flex gap-10 justify-between mx-10 mb-20">
-  <?php foreach (page('guide')->children()->listed() as $area): ?>
+  <?php
+    foreach (page('guide')->children()->listed() as $area):
+      $ready = $area->ready()->value() == 'true' ? true : false;
+      $link = $ready ? $area->url() : '/guide';
+  ?>
     <a
-      href="<?= $area->url() ?>"
+      href="<?= $link ?>"
       class="
       w-1/3 rounded-3xl p-6 border-2 border-gray-100 transition-all
-      hover:border-indigo-600 hover:text-indigo-600
+      hover:border-indigo-600 hover:text-indigo-600 <?php if (!$ready): ?>text-gray-500<?php endif; ?>
       "
     >
-      <h1 class="text-2xl font-medium"><?= $area->title() ?></h1>
+      <h1 class="text-2xl font-medium <?php if (!$ready): ?>line-through<?php endif; ?>"><?= $area->title() ?></h1>
+      <?php if (!$ready): ?><p>Coming soon</p><?php endif; ?>
       <p class="mt-3"><?= $area->teaser() ?></p>
     </a>
   <?php endforeach ?>

@@ -85,3 +85,15 @@ article .blocks p {
 article .blocks img {
   @apply max-w-full;
 }
+
+.kirbytext p+p {
+  @apply mt-5;
+}
+
+.kirbytext a {
+  @apply underline
+}
+
+.kirbytext a:hover {
+  @apply text-indigo-600
+}

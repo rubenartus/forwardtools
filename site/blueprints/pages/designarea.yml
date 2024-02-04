@@ -10,6 +10,9 @@ sections:
       intro:
         label: Intro 
         type: textarea
+      ready:
+        label: Ready?
+        type: toggle
   groups:
     label: Groups
     type: pages
